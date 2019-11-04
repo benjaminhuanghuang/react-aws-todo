@@ -1,0 +1,14 @@
+{
+    "trigger": true,
+    "modules": [
+        "verification-link"
+    ],
+    "parentResource": "benawstodoa0898d33",
+    "functionName": "benawstodoa0898d33CustomMessage",
+    "parentStack": "auth",
+    "triggerEnvs": "[{\"key\":\"RESOURCENAME\",\"value\":\"resourceName\"}]",
+    "triggerTemplate": "CustomMessage.json.ejs",
+    "roleName": "benawstodoa0898d33CustomMessage",
+    "skipEdit": true,
+    "resourceName": "benawstodoa0898d33CustomMessage"
+}

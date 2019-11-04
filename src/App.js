@@ -2,6 +2,13 @@ import React from 'react';
 import logo from './logo.svg';
 import './App.css';
 
+import Auth from 'aws-amplify'
+import awsconfig from './aws-exports'
+import {withAuthenticator} from 'aws-amplify-react'
+
+Auth.configure(awsconfig)
+
+
 function App() {
   return (
     <div className="App">
@@ -16,11 +23,12 @@ function App() {
           target="_blank"
           rel="noopener noreferrer"
         >
-          Learn React
+          Learn React!!!!
         </a>
       </header>
     </div>
   );
 }
 
-export default App;
+export default withAuthenticator(App);
+// export default App;

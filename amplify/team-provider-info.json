@@ -9,6 +9,18 @@
             "UnauthRoleName": "amplify-ben-aws-todo-bentodo-100659-unauthRole",
             "StackName": "amplify-ben-aws-todo-bentodo-100659",
             "StackId": "arn:aws:cloudformation:us-west-1:173116748583:stack/amplify-ben-aws-todo-bentodo-100659/03e74f20-ff2e-11e9-a252-50841f1f4e8d"
+        },
+        "categories": {
+            "function": {
+                "benawstodoa0898d33CustomMessage": {
+                    "REDIRECTURL": "http://www.google.com",
+                    "EMAILSUBJECT": "Confirmation",
+                    "EMAILMESSAGE": "Confirm..."
+                }
+            },
+            "auth": {
+                "benawstodoa0898d33": {}
+            }
         }
     }
 }
